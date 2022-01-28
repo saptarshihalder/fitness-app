@@ -1,6 +1,6 @@
 # FITNESS APP
 Too Many bugs >:(
-Discontinued in 2019 After a long Tiresome attempt at creating a working app to reduce my belly. Google Fit is my alternative now  :(
+Discontinued in 2019 After a long tiresome attempt at creating a working app to reduce my belly. Google Fit is my alternative now  :(
 
 
 
