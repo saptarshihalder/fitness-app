@@ -1,0 +1,465 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="component_event" id="_$N)xkTj=y@7KVxULRcK" x="-1070" y="-250">
+    <mutation component_type="Form" is_generic="false" instance_name="Home" event_name="BackPressed"></mutation>
+    <field name="COMPONENT_SELECTOR">Home</field>
+    <statement name="DO">
+      <block type="controls_if" id="Mcv,UWe!1ZF3*-9k]i}E">
+        <value name="IF0">
+          <block type="logic_boolean" id="b:3;tWG61Qq0Jhg2q=sS">
+            <field name="BOOL">TRUE</field>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="controls_closeApplication" id="-}E)X:@GXrX8VhE05/0Y"></block>
+        </statement>
+        <next>
+          <block type="controls_closeApplication" id="r+=K!WNka@m-KVh]kQ^|"></block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="5.t/Pmn8(Zv]tGv~_N+{" x="150" y="-250">
+    <mutation component_type="Form" is_generic="false" instance_name="Home" event_name="Initialize"></mutation>
+    <field name="COMPONENT_SELECTOR">Home</field>
+    <statement name="DO">
+      <block type="component_method" id="z;Z]#FJc{xDYO+J.zO9W">
+        <mutation component_type="Form" method_name="SideMenu" is_generic="false" instance_name="Home"></mutation>
+        <field name="COMPONENT_SELECTOR">Home</field>
+        <value name="ARG0">
+          <block type="component_component_block" id="M(Dg00A(-CvK?]WZ!_$j">
+            <mutation component_type="VerticalArrangement" instance_name="Vertical_Arrangement1"></mutation>
+            <field name="COMPONENT_SELECTOR">Vertical_Arrangement1</field>
+          </block>
+        </value>
+        <next>
+          <block type="component_set_get" id="n)]@Y7Vx!=j:{v!Zg3sm">
+            <mutation component_type="Label" set_or_get="set" property_name="Text" is_generic="false" instance_name="Name"></mutation>
+            <field name="COMPONENT_SELECTOR">Name</field>
+            <field name="PROP">Text</field>
+            <value name="VALUE">
+              <block type="component_method" id="e)l%J}/O{}*D@x{*62|M">
+                <mutation component_type="TinyDB" method_name="GetValue" is_generic="false" instance_name="Tiny_DB1"></mutation>
+                <field name="COMPONENT_SELECTOR">Tiny_DB1</field>
+                <value name="ARG0">
+                  <block type="text" id="b{hz;{_ri[niXJ!84p{C">
+                    <field name="TEXT">Name</field>
+                  </block>
+                </value>
+                <value name="ARG1">
+                  <block type="text" id="HVNBwe610}bJCjG6.NP_">
+                    <field name="TEXT"></field>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <next>
+              <block type="component_set_get" id="F^%5RF!LFZp/3d-B?La;">
+                <mutation component_type="Label" set_or_get="set" property_name="Text" is_generic="false" instance_name="Age"></mutation>
+                <field name="COMPONENT_SELECTOR">Age</field>
+                <field name="PROP">Text</field>
+                <value name="VALUE">
+                  <block type="component_method" id="SJiomb/OlhAVq`}BxbW%">
+                    <mutation component_type="TinyDB" method_name="GetValue" is_generic="false" instance_name="Tiny_DB1"></mutation>
+                    <field name="COMPONENT_SELECTOR">Tiny_DB1</field>
+                    <value name="ARG0">
+                      <block type="text" id="Phy@puu4@Alc~DsIHEHo">
+                        <field name="TEXT">Age</field>
+                      </block>
+                    </value>
+                    <value name="ARG1">
+                      <block type="text" id="YfRLV9B#Nr?UDF1PWt4d">
+                        <field name="TEXT"></field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <next>
+                  <block type="component_set_get" id="%PAdRFD`kg;*kImt%5|P">
+                    <mutation component_type="Label" set_or_get="set" property_name="Text" is_generic="false" instance_name="Setps"></mutation>
+                    <field name="COMPONENT_SELECTOR">Setps</field>
+                    <field name="PROP">Text</field>
+                    <value name="VALUE">
+                      <block type="component_method" id="4x8:CN~c)7_Et8S@|VME">
+                        <mutation component_type="TinyDB" method_name="GetValue" is_generic="false" instance_name="Tiny_DB1"></mutation>
+                        <field name="COMPONENT_SELECTOR">Tiny_DB1</field>
+                        <value name="ARG0">
+                          <block type="text" id="6E..HGfY%i-p4XRAg:mB">
+                            <field name="TEXT">Steps</field>
+                          </block>
+                        </value>
+                        <value name="ARG1">
+                          <block type="text" id="%xLiI1Ut,0Y@[*O4u#f|">
+                            <field name="TEXT"></field>
+                          </block>
+                        </value>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="controls_if" id="IU{`w[Lge]]a72.UXAQO">
+                        <mutation else="1"></mutation>
+                        <value name="IF0">
+                          <block type="logic_compare" id="G`t()v0$ew2k[-)W{zmY">
+                            <field name="OP">EQ</field>
+                            <value name="A">
+                              <block type="component_method" id="$_*kE@dOs70RUCQX.X5-">
+                                <mutation component_type="TinyDB" method_name="GetValue" is_generic="false" instance_name="Tiny_DB1"></mutation>
+                                <field name="COMPONENT_SELECTOR">Tiny_DB1</field>
+                                <value name="ARG0">
+                                  <block type="text" id="(1uNBL8|c1o?qI#E`.r[">
+                                    <field name="TEXT">Steps</field>
+                                  </block>
+                                </value>
+                                <value name="ARG1">
+                                  <block type="text" id="WeiuKW2-z64h!(XonN_}">
+                                    <field name="TEXT"></field>
+                                  </block>
+                                </value>
+                              </block>
+                            </value>
+                            <value name="B">
+                              <block type="text" id="MS4GV6GL.sZ1qqw*wYh7">
+                                <field name="TEXT"></field>
+                              </block>
+                            </value>
+                          </block>
+                        </value>
+                        <statement name="DO0">
+                          <block type="component_set_get" id="4mR!lHUrX`govS@(2xDd">
+                            <mutation component_type="Label" set_or_get="set" property_name="Text" is_generic="false" instance_name="Calorie"></mutation>
+                            <field name="COMPONENT_SELECTOR">Calorie</field>
+                            <field name="PROP">Text</field>
+                            <value name="VALUE">
+                              <block type="component_method" id="z.^*cl]~ASU?vLXm;~*[">
+                                <mutation component_type="TinyDB" method_name="GetValue" is_generic="false" instance_name="Tiny_DB1"></mutation>
+                                <field name="COMPONENT_SELECTOR">Tiny_DB1</field>
+                                <value name="ARG0">
+                                  <block type="text" id="x]C[[ZtpJA5akDK-GDzf">
+                                    <field name="TEXT">Steps</field>
+                                  </block>
+                                </value>
+                                <value name="ARG1">
+                                  <block type="text" id="qQa:)NwvtfrWUniHNMYR">
+                                    <field name="TEXT"></field>
+                                  </block>
+                                </value>
+                              </block>
+                            </value>
+                          </block>
+                        </statement>
+                        <statement name="ELSE">
+                          <block type="component_set_get" id="t$d/mu%^UYw3NLWSHu-x">
+                            <mutation component_type="Label" set_or_get="set" property_name="Text" is_generic="false" instance_name="Calorie"></mutation>
+                            <field name="COMPONENT_SELECTOR">Calorie</field>
+                            <field name="PROP">Text</field>
+                            <value name="VALUE">
+                              <block type="math_multiply" id="*A/1?HiMeUU^R:7nmKK0">
+                                <mutation items="2"></mutation>
+                                <value name="NUM0">
+                                  <block type="component_method" id="G1+d$GWb:~-?6n-57w7P">
+                                    <mutation component_type="TinyDB" method_name="GetValue" is_generic="false" instance_name="Tiny_DB1"></mutation>
+                                    <field name="COMPONENT_SELECTOR">Tiny_DB1</field>
+                                    <value name="ARG0">
+                                      <block type="text" id="mM`4GrSzV3dnc7;#)^W9">
+                                        <field name="TEXT">Steps</field>
+                                      </block>
+                                    </value>
+                                    <value name="ARG1">
+                                      <block type="text" id="`LUP{JnI47IruW`#Onrg">
+                                        <field name="TEXT"></field>
+                                      </block>
+                                    </value>
+                                  </block>
+                                </value>
+                                <value name="NUM1">
+                                  <block type="math_number" id="1[R_58_|MN4sGrTe94F^">
+                                    <field name="NUM">0.04</field>
+                                  </block>
+                                </value>
+                              </block>
+                            </value>
+                          </block>
+                        </statement>
+                        <next>
+                          <block type="component_set_get" id="zhcVQ,eXSU3douA/0^*X">
+                            <mutation component_type="MakeroidCardView" set_or_get="set" property_name="ContentPaddingBottom" is_generic="false" instance_name="Card_View8"></mutation>
+                            <field name="COMPONENT_SELECTOR">Card_View8</field>
+                            <field name="PROP">ContentPaddingBottom</field>
+                            <value name="VALUE">
+                              <block type="math_number" id="7qC8qX]EaO$cj%213^Ky">
+                                <field name="NUM">-10</field>
+                              </block>
+                            </value>
+                            <next>
+                              <block type="component_set_get" id="j_0i|nHn2!WMF1J2[-|_">
+                                <mutation component_type="MakeroidCardView" set_or_get="set" property_name="ContentPaddingLeft" is_generic="false" instance_name="Card_View8"></mutation>
+                                <field name="COMPONENT_SELECTOR">Card_View8</field>
+                                <field name="PROP">ContentPaddingLeft</field>
+                                <value name="VALUE">
+                                  <block type="math_number" id=":9i38?EaFDzV/3uow+JU">
+                                    <field name="NUM">-10</field>
+                                  </block>
+                                </value>
+                                <next>
+                                  <block type="component_set_get" id="NY.bF1`0*|,pI;+*@tB!">
+                                    <mutation component_type="MakeroidCardView" set_or_get="set" property_name="ContentPaddingRight" is_generic="false" instance_name="Card_View8"></mutation>
+                                    <field name="COMPONENT_SELECTOR">Card_View8</field>
+                                    <field name="PROP">ContentPaddingRight</field>
+                                    <value name="VALUE">
+                                      <block type="math_number" id="j2mCxMj9-B/,YEJ12#1t">
+                                        <field name="NUM">-10</field>
+                                      </block>
+                                    </value>
+                                    <next>
+                                      <block type="component_set_get" id="bbi_6f_7#x|)s1nKR%,!">
+                                        <mutation component_type="MakeroidCardView" set_or_get="set" property_name="ContentPaddingTop" is_generic="false" instance_name="Card_View8"></mutation>
+                                        <field name="COMPONENT_SELECTOR">Card_View8</field>
+                                        <field name="PROP">ContentPaddingTop</field>
+                                        <value name="VALUE">
+                                          <block type="math_number" id="vS?W73|KRSz_$xRJBwTs">
+                                            <field name="NUM">-10</field>
+                                          </block>
+                                        </value>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="7$?W+2u}2vy[Nc%6XiV`" x="-850" y="-90">
+    <mutation component_type="MakeroidCardView" is_generic="false" instance_name="Aboutus" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">Aboutus</field>
+    <statement name="DO">
+      <block type="controls_if" id="ZOJ~fPDai.X!fh*J16}V">
+        <value name="IF0">
+          <block type="logic_boolean" id="@Kbu$.;HPN7a/DALIVN.">
+            <field name="BOOL">TRUE</field>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="controls_openAnotherScreen" id="%;jm5++h7XT(e2hEZ4$Y">
+            <value name="SCREEN">
+              <block type="text" id="Gl0ZW-Q%-K/fLYzqmw_v">
+                <field name="TEXT">About</field>
+              </block>
+            </value>
+          </block>
+        </statement>
+        <next>
+          <block type="controls_closeScreen" id="kwUy17Nc~+C7_nnV1.P*"></block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="?~yFqW%m]iLyI3UC08)k" x="-290" y="10">
+    <mutation component_type="Image" is_generic="false" instance_name="Sidemenu" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">Sidemenu</field>
+    <statement name="DO">
+      <block type="component_method" id="-urDvP~S$VD2u1D!Yb!_">
+        <mutation component_type="Form" method_name="SideMenuOpen" is_generic="false" instance_name="Home"></mutation>
+        <field name="COMPONENT_SELECTOR">Home</field>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="aX5pnsr7v$Laq}_Dzh4R" x="-850" y="50">
+    <mutation component_type="MakeroidCardView" is_generic="false" instance_name="Take_Assisment" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">Take_Assisment</field>
+    <statement name="DO">
+      <block type="controls_if" id="UC^F1ezk@S*Ov+MkM#~+">
+        <value name="IF0">
+          <block type="logic_boolean" id="uy6TD)OG2X:Ze3}C(%}R">
+            <field name="BOOL">TRUE</field>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="controls_openAnotherScreen" id="9{}o[o_!~`)F2h!6p@zv">
+            <value name="SCREEN">
+              <block type="text" id="pNS|s;yh5x%v!wxk*;dY">
+                <field name="TEXT">Assisment</field>
+              </block>
+            </value>
+          </block>
+        </statement>
+        <next>
+          <block type="controls_closeScreen" id=":g0C36fExhB!xe[v;K{f"></block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="s%xf4F,}8=XOXao!LLUY" x="-850" y="190">
+    <mutation component_type="MakeroidCardView" is_generic="false" instance_name="Stepcounter" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">Stepcounter</field>
+    <statement name="DO">
+      <block type="controls_if" id="}Zm#2{IrFMzSUmcffyq%">
+        <value name="IF0">
+          <block type="logic_boolean" id="~EXy%lLYeJ|^0f6!^MID">
+            <field name="BOOL">TRUE</field>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="controls_openAnotherScreen" id="@1wrWJGXm#V#rP4b~i@}">
+            <value name="SCREEN">
+              <block type="text" id=".9iG@|Q$Bz!/x3#EDl/v">
+                <field name="TEXT">Steps_Work</field>
+              </block>
+            </value>
+          </block>
+        </statement>
+        <next>
+          <block type="controls_closeScreen" id="nZsp3EuawM#UaSS.:`H*"></block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="k^FiEEL-]$kJPKLv9dcO" x="-430" y="170">
+    <mutation component_type="MakeroidCardView" is_generic="false" instance_name="Covid" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">Covid</field>
+    <statement name="DO">
+      <block type="controls_if" id="=SS%bgmXrGtbf{ySIlys">
+        <value name="IF0">
+          <block type="logic_boolean" id="A!3GsyJN+ztly]X08@zq">
+            <field name="BOOL">TRUE</field>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="controls_openAnotherScreen" id="13D3mdcta:(owdEr_h:j">
+            <value name="SCREEN">
+              <block type="text" id="KJthBPo$8(,[wL/Db8/}">
+                <field name="TEXT">Covid</field>
+              </block>
+            </value>
+          </block>
+        </statement>
+        <next>
+          <block type="controls_closeScreen" id="i!gYt1~$/VX)exp)Ua#,"></block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="`ri3T={RQU]RFw6CrUmQ" x="-430" y="290">
+    <mutation component_type="MakeroidCardView" is_generic="false" instance_name="Card_View5_copy" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">Card_View5_copy</field>
+    <statement name="DO">
+      <block type="controls_if" id="F3CPlP;~d%OO+5Ku65Mc">
+        <value name="IF0">
+          <block type="logic_boolean" id="TZW/?cL9tD$qHsLbq|Xm">
+            <field name="BOOL">TRUE</field>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="controls_openAnotherScreen" id="W1u1aqR.Jrm9;VPn4ne3">
+            <value name="SCREEN">
+              <block type="text" id="9CPRAs5cntDNu5w7iOf0">
+                <field name="TEXT">Assisment</field>
+              </block>
+            </value>
+          </block>
+        </statement>
+        <next>
+          <block type="controls_closeScreen" id="JlnT%z?P6)K+yhnl,hN:"></block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id=".WaC)Unoj(M=lMHXexez" x="-830" y="370">
+    <mutation component_type="MakeroidCardView" is_generic="false" instance_name="Clear_Data" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">Clear_Data</field>
+    <statement name="DO">
+      <block type="controls_if" id="r[r8om2=xiIv~RS~E+OI">
+        <value name="IF0">
+          <block type="logic_boolean" id="UK/byc{oiaFB(aqk}5F~">
+            <field name="BOOL">TRUE</field>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="component_method" id="J4Jl*)A-sgmNeS:p+PLK">
+            <mutation component_type="TinyDB" method_name="ClearAll" is_generic="false" instance_name="Tiny_DB1"></mutation>
+            <field name="COMPONENT_SELECTOR">Tiny_DB1</field>
+            <next>
+              <block type="component_method" id="tCn:B#b=za}wZ]sasw$I">
+                <mutation component_type="TinyDB" method_name="ClearAll" is_generic="false" instance_name="Tiny_DB2"></mutation>
+                <field name="COMPONENT_SELECTOR">Tiny_DB2</field>
+                <next>
+                  <block type="controls_openAnotherScreen" id="`hc(l,O$+KplpM}9KYi;">
+                    <value name="SCREEN">
+                      <block type="text" id="$_{7|c-qZsnQcNF!MDLY">
+                        <field name="TEXT">Screen2</field>
+                      </block>
+                    </value>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </statement>
+        <next>
+          <block type="controls_closeScreen" id="T7PSd-H7Os%Gq,=`WPxm"></block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="controls_closeScreen" id="1I.mt_@uCxQ4PJs6xQrh" x="470" y="370"></block>
+  <block type="component_event" id="|VI{x)ac%4k3s1epPY:T" x="570" y="450">
+    <mutation component_type="MakeroidCardView" is_generic="false" instance_name="Pdeometer" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">Pdeometer</field>
+    <statement name="DO">
+      <block type="controls_if" id="e{xCk7lr7,/`3RmPEE]m">
+        <value name="IF0">
+          <block type="logic_boolean" id="?@$24e:pCLY5w}%ku*mF">
+            <field name="BOOL">TRUE</field>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="controls_openAnotherScreen" id="W(bjo*-l[Qh|RM#p06,3">
+            <value name="SCREEN">
+              <block type="text" id="yfEqI{-nal_!P/p3}[Wx">
+                <field name="TEXT">Steps_Work</field>
+              </block>
+            </value>
+          </block>
+        </statement>
+        <next>
+          <block type="controls_closeScreen" id="e17Q7wpW2.e/G/T`?Y!f"></block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id=",kYkEZy(xxb,UVZY)Y.8" x="110" y="519">
+    <mutation component_type="MakeroidCardView" is_generic="false" instance_name="yoga" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">yoga</field>
+    <statement name="DO">
+      <block type="controls_if" id="2Gn_dQ18897/4-(%ToXr">
+        <value name="IF0">
+          <block type="logic_boolean" id="1GoI6i.YTzx2Yioe:M48">
+            <field name="BOOL">TRUE</field>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="controls_openAnotherScreen" id="Xxn58LWfDo!L$2iYjUpg">
+            <value name="SCREEN">
+              <block type="text" id="dHR[r9E@`K{-k5{Xz)*R">
+                <field name="TEXT">Yoga</field>
+              </block>
+            </value>
+          </block>
+        </statement>
+        <next>
+          <block type="controls_closeScreen" id="@peLF;o;B6w.S}So:xdC"></block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <yacodeblocks ya-version="227" language-version="32"></yacodeblocks>
+</xml>

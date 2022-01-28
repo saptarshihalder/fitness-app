@@ -1,0 +1,28 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="component_event" id="m_QQ-+Q[Wd666D#!yBDA" x="-510" y="-190">
+    <mutation component_type="Form" is_generic="false" instance_name="About" event_name="BackPressed"></mutation>
+    <field name="COMPONENT_SELECTOR">About</field>
+    <statement name="DO">
+      <block type="controls_if" id="j8~Z2wM]/p~vfRJ.qMQ+">
+        <value name="IF0">
+          <block type="logic_boolean" id="|}mGX.tcMkM7cbp,,U-8">
+            <field name="BOOL">TRUE</field>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="controls_openAnotherScreen" id="C,p//3}O}PW%u$hooIk0">
+            <value name="SCREEN">
+              <block type="text" id="n}CYn:TEx+%:cLF%q$qn">
+                <field name="TEXT">Home</field>
+              </block>
+            </value>
+          </block>
+        </statement>
+        <next>
+          <block type="controls_closeScreen" id="ImIq9k9Xyat2jyAYq5,+"></block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <yacodeblocks ya-version="227" language-version="32"></yacodeblocks>
+</xml>

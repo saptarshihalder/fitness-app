@@ -1,0 +1,1429 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="component_event" id="rg@KafS1jrCa/Tht_X;H" x="-370" y="-170">
+    <mutation component_type="Form" is_generic="false" instance_name="Assisment" event_name="Initialize"></mutation>
+    <field name="COMPONENT_SELECTOR">Assisment</field>
+    <statement name="DO">
+      <block type="component_set_get" id=",uSNQW{t?!#1Tl{3l0+e">
+        <mutation component_type="VerticalArrangement" set_or_get="set" property_name="Visible" is_generic="false" instance_name="Vertical_Arrangement2_copy"></mutation>
+        <field name="COMPONENT_SELECTOR">Vertical_Arrangement2_copy</field>
+        <field name="PROP">Visible</field>
+        <value name="VALUE">
+          <block type="logic_boolean" id="q#~Wnqs6:q:ul{|(!OWo">
+            <field name="BOOL">TRUE</field>
+          </block>
+        </value>
+        <next>
+          <block type="component_set_get" id="^s[U(5PjpU6+TC6O9mC{">
+            <mutation component_type="VerticalArrangement" set_or_get="set" property_name="Visible" is_generic="false" instance_name="Age"></mutation>
+            <field name="COMPONENT_SELECTOR">Age</field>
+            <field name="PROP">Visible</field>
+            <value name="VALUE">
+              <block type="logic_boolean" id="qLK@4;%uqWY1;t.CGIF}">
+                <field name="BOOL">FALSE</field>
+              </block>
+            </value>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="text" id="B=7HZ25^_UYGL?}KSy%P" x="370" y="-90">
+    <field name="TEXT"></field>
+  </block>
+  <block type="global_declaration" id="K{XDZ7[/t[y//gx1wthr" x="150" y="-30">
+    <field name="NAME">name</field>
+    <value name="VALUE">
+      <block type="text" id="gNpC9f5CDN`@5L``9Vs7">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+  </block>
+  <block type="global_declaration" id=":|}8H/fz`[XF}gb;w[mx" x="-570" y="30">
+    <field name="NAME">q1</field>
+    <value name="VALUE">
+      <block type="math_number" id="6h}T]6[m+r@-SzVkGBx!">
+        <field name="NUM">0</field>
+      </block>
+    </value>
+  </block>
+  <block type="global_declaration" id="nlSFrWX@rncC.UY8dbha" x="170" y="10">
+    <field name="NAME">Age</field>
+    <value name="VALUE">
+      <block type="text" id="%l38F}y8bw@~d?98hd`a">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+  </block>
+  <block type="global_declaration" id="/A@T1PJT}#ZMe?Q=wWj}" x="-570" y="70">
+    <field name="NAME">q2</field>
+    <value name="VALUE">
+      <block type="math_number" id="WyX;NBcTCpQx[.b!5#Js">
+        <field name="NUM">0</field>
+      </block>
+    </value>
+  </block>
+  <block type="component_event" id="pz5]i0,s2PFQlSAgg^%Y" x="-1370" y="130">
+    <mutation component_type="MakeroidCardView" is_generic="false" instance_name="No2" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">No2</field>
+    <statement name="DO">
+      <block type="lexical_variable_set" id="~.%`g^!UF]skeAz!+0fr">
+        <field name="VAR">global q2</field>
+        <value name="VALUE">
+          <block type="math_number" id="pjp2A#j;-K)*q:{!^=ns">
+            <field name="NUM">2</field>
+          </block>
+        </value>
+        <next>
+          <block type="component_set_get" id=")~fRl2t9VaeVOE%NY2LY">
+            <mutation component_type="VerticalArrangement" set_or_get="set" property_name="BackgroundColor" is_generic="false" instance_name="Vertical_Arrangement1"></mutation>
+            <field name="COMPONENT_SELECTOR">Vertical_Arrangement1</field>
+            <field name="PROP">BackgroundColor</field>
+            <value name="VALUE">
+              <block type="color_red" id="gqh98gub7+4Zx*P}I)Wj">
+                <field name="COLOR">#ff9966</field>
+              </block>
+            </value>
+            <next>
+              <block type="component_set_get" id="*rSXc0xazl1n%*:q^lBh">
+                <mutation component_type="VerticalArrangement" set_or_get="set" property_name="Visible" is_generic="false" instance_name="Age"></mutation>
+                <field name="COMPONENT_SELECTOR">Age</field>
+                <field name="PROP">Visible</field>
+                <value name="VALUE">
+                  <block type="logic_boolean" id=";Y+u%fql66:-H8uHsOCt">
+                    <field name="BOOL">FALSE</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="component_set_get" id=",/n(Qdv*N;m-.iLpe7K)">
+                    <mutation component_type="VerticalArrangement" set_or_get="set" property_name="Visible" is_generic="false" instance_name="Q3"></mutation>
+                    <field name="COMPONENT_SELECTOR">Q3</field>
+                    <field name="PROP">Visible</field>
+                    <value name="VALUE">
+                      <block type="logic_boolean" id="Z2mwmfvxS4Fnn_)OM@_f">
+                        <field name="BOOL">TRUE</field>
+                      </block>
+                    </value>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="global_declaration" id="Orsdr79,pwN_?p`z2~w*" x="-570" y="110">
+    <field name="NAME">q3</field>
+    <value name="VALUE">
+      <block type="math_number" id="(:+5%)?Wyt__}t^6:IbE">
+        <field name="NUM">0</field>
+      </block>
+    </value>
+  </block>
+  <block type="global_declaration" id="j8Hm*rkivxBa8{*YRf;Q" x="-570" y="150">
+    <field name="NAME">q4</field>
+    <value name="VALUE">
+      <block type="math_number" id="sh^hB4Ds-RomW]!{A(BG">
+        <field name="NUM">0</field>
+      </block>
+    </value>
+  </block>
+  <block type="component_event" id="^RG:G^Sq0,b$8Zu]q#|Q" x="-830" y="170">
+    <mutation component_type="MakeroidCardView" is_generic="false" instance_name="Yes1" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">Yes1</field>
+    <statement name="DO">
+      <block type="lexical_variable_set" id="p{!#^%/|7?y]N#nJ[W)%">
+        <field name="VAR">global q1</field>
+        <value name="VALUE">
+          <block type="math_number" id="}Y[iUOT3ZnBs;/vst?Ag">
+            <field name="NUM">1</field>
+          </block>
+        </value>
+        <next>
+          <block type="component_set_get" id="DIS5BqJ7vke4GLl1xNz%">
+            <mutation component_type="VerticalArrangement" set_or_get="set" property_name="BackgroundColor" is_generic="false" instance_name="Vertical_Arrangement1"></mutation>
+            <field name="COMPONENT_SELECTOR">Vertical_Arrangement1</field>
+            <field name="PROP">BackgroundColor</field>
+            <value name="VALUE">
+              <block type="color_red" id="Xb;7Qztt!yk6prh1l.vE">
+                <field name="COLOR">#ffcc00</field>
+              </block>
+            </value>
+            <next>
+              <block type="component_set_get" id="8({qVQF_Yv7wd:1*4A7p">
+                <mutation component_type="VerticalArrangement" set_or_get="set" property_name="Visible" is_generic="false" instance_name="Vertical_Arrangement2_copy"></mutation>
+                <field name="COMPONENT_SELECTOR">Vertical_Arrangement2_copy</field>
+                <field name="PROP">Visible</field>
+                <value name="VALUE">
+                  <block type="logic_boolean" id="Y58G-L7=}2B=(4-t6zam">
+                    <field name="BOOL">FALSE</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="component_set_get" id="Tv8F01p[d{*JE_p$#8d0">
+                    <mutation component_type="VerticalArrangement" set_or_get="set" property_name="Visible" is_generic="false" instance_name="Age"></mutation>
+                    <field name="COMPONENT_SELECTOR">Age</field>
+                    <field name="PROP">Visible</field>
+                    <value name="VALUE">
+                      <block type="logic_boolean" id="K/S:G_0G8Wn%WO}FUZd|">
+                        <field name="BOOL">TRUE</field>
+                      </block>
+                    </value>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="axvyctdzR+;3/rydr7lG" x="-1650" y="230">
+    <mutation component_type="Form" is_generic="false" instance_name="Assisment" event_name="BackPressed"></mutation>
+    <field name="COMPONENT_SELECTOR">Assisment</field>
+    <statement name="DO">
+      <block type="controls_if" id=";0gy]Lp,X53yWellzZSe">
+        <value name="IF0">
+          <block type="logic_boolean" id="wf^$}k=rs{{,q=o%VE*[">
+            <field name="BOOL">TRUE</field>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="controls_openAnotherScreen" id="+PIxvQzU]kEii`;yf!8;">
+            <value name="SCREEN">
+              <block type="text" id="!mKBTz)Cq5ia+c7bSmu(">
+                <field name="TEXT">Screen1</field>
+              </block>
+            </value>
+          </block>
+        </statement>
+        <next>
+          <block type="controls_closeScreen" id="~r)E6}K)5=g@*9J.~nAS"></block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="1-}]#muK+D9E/#NU3K@#" x="-1390" y="330">
+    <mutation component_type="MakeroidCardView" is_generic="false" instance_name="No3" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">No3</field>
+    <statement name="DO">
+      <block type="lexical_variable_set" id="{I~Q!sg8NaD!ust2Y,uI">
+        <field name="VAR">global q3</field>
+        <value name="VALUE">
+          <block type="math_number" id="}TJrek{J@B%[3y}5+.0j">
+            <field name="NUM">2</field>
+          </block>
+        </value>
+        <next>
+          <block type="component_set_get" id=":)Ne5|si%XIg7RMR{wme">
+            <mutation component_type="VerticalArrangement" set_or_get="set" property_name="BackgroundColor" is_generic="false" instance_name="Vertical_Arrangement1"></mutation>
+            <field name="COMPONENT_SELECTOR">Vertical_Arrangement1</field>
+            <field name="PROP">BackgroundColor</field>
+            <value name="VALUE">
+              <block type="color_red" id="qP8NO,+I4fTizi(F!w$~">
+                <field name="COLOR">#009900</field>
+              </block>
+            </value>
+            <next>
+              <block type="component_set_get" id="FKr_=RvBPiji:66W]xJv">
+                <mutation component_type="VerticalArrangement" set_or_get="set" property_name="Visible" is_generic="false" instance_name="Q3"></mutation>
+                <field name="COMPONENT_SELECTOR">Q3</field>
+                <field name="PROP">Visible</field>
+                <value name="VALUE">
+                  <block type="logic_boolean" id="$YBtrG=;DElMx|)LHKth">
+                    <field name="BOOL">FALSE</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="component_set_get" id="S9T]#?TZ~%*[j=WkieZ3">
+                    <mutation component_type="VerticalArrangement" set_or_get="set" property_name="Visible" is_generic="false" instance_name="Q3_copy"></mutation>
+                    <field name="COMPONENT_SELECTOR">Q3_copy</field>
+                    <field name="PROP">Visible</field>
+                    <value name="VALUE">
+                      <block type="logic_boolean" id="IB%Jjpk/dsdRj%`ow9wM">
+                        <field name="BOOL">TRUE</field>
+                      </block>
+                    </value>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="cwt(hESdd{`8JMc!*_wF" x="-830" y="330">
+    <mutation component_type="MakeroidCardView" is_generic="false" instance_name="No1" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">No1</field>
+    <statement name="DO">
+      <block type="lexical_variable_set" id="W;b!/K#.Yv,4d{J$K*:[">
+        <field name="VAR">global q1</field>
+        <value name="VALUE">
+          <block type="math_number" id="LVMpJJ+qYp|TRcZHU(9%">
+            <field name="NUM">2</field>
+          </block>
+        </value>
+        <next>
+          <block type="component_set_get" id="|g!@th6SwwuE=H7u35g2">
+            <mutation component_type="VerticalArrangement" set_or_get="set" property_name="BackgroundColor" is_generic="false" instance_name="Vertical_Arrangement1"></mutation>
+            <field name="COMPONENT_SELECTOR">Vertical_Arrangement1</field>
+            <field name="PROP">BackgroundColor</field>
+            <value name="VALUE">
+              <block type="color_red" id="opMr:;$:r]7fM+/,crkD">
+                <field name="COLOR">#ffcc00</field>
+              </block>
+            </value>
+            <next>
+              <block type="component_set_get" id=")$_B2$q}Sz#C;n|IccRn">
+                <mutation component_type="VerticalArrangement" set_or_get="set" property_name="Visible" is_generic="false" instance_name="Vertical_Arrangement2_copy"></mutation>
+                <field name="COMPONENT_SELECTOR">Vertical_Arrangement2_copy</field>
+                <field name="PROP">Visible</field>
+                <value name="VALUE">
+                  <block type="logic_boolean" id="JgtwlUU@:115E`*or!iE">
+                    <field name="BOOL">FALSE</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="component_set_get" id="E;Yos=*=pe$I@fy/B8;D">
+                    <mutation component_type="VerticalArrangement" set_or_get="set" property_name="Visible" is_generic="false" instance_name="Age"></mutation>
+                    <field name="COMPONENT_SELECTOR">Age</field>
+                    <field name="PROP">Visible</field>
+                    <value name="VALUE">
+                      <block type="logic_boolean" id="C{e5h#Wl9U@!l2j#UmJ$">
+                        <field name="BOOL">TRUE</field>
+                      </block>
+                    </value>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="~0S$8,ZXp-]:!t)K2F8U" x="-1550" y="490">
+    <mutation component_type="MakeroidCardView" is_generic="false" instance_name="Yes3_copy" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">Yes3_copy</field>
+    <statement name="DO">
+      <block type="lexical_variable_set" id="OYO68b21i)DR%uRzks)5">
+        <field name="VAR">global q4</field>
+        <value name="VALUE">
+          <block type="math_number" id="JpzXGi5qTNky[j5]^M=q">
+            <field name="NUM">1</field>
+          </block>
+        </value>
+        <next>
+          <block type="component_method" id="FxyapoHwR0HSHG$i6Kwe">
+            <mutation component_type="TinyDB" method_name="StoreValue" is_generic="false" instance_name="Tiny_DB1"></mutation>
+            <field name="COMPONENT_SELECTOR">Tiny_DB1</field>
+            <value name="ARG0">
+              <block type="text" id="6;$QCP?A6+8^aa~RaA*W">
+                <field name="TEXT">risk</field>
+              </block>
+            </value>
+            <value name="ARG1">
+              <block type="math_number" id="c.UaiX_GHO/+U38NhpW%">
+                <field name="NUM">100</field>
+              </block>
+            </value>
+            <next>
+              <block type="component_set_get" id="NL!BEBIH=+,H/)Ngr;$B">
+                <mutation component_type="VerticalArrangement" set_or_get="set" property_name="BackgroundColor" is_generic="false" instance_name="Vertical_Arrangement1"></mutation>
+                <field name="COMPONENT_SELECTOR">Vertical_Arrangement1</field>
+                <field name="PROP">BackgroundColor</field>
+                <value name="VALUE">
+                  <block type="color_red" id=".J|iEin5)bPzs;m:@DzQ">
+                    <field name="COLOR">#330099</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="component_set_get" id="%~r5ukcz)[:9F{{uC!5z">
+                    <mutation component_type="VerticalArrangement" set_or_get="set" property_name="Visible" is_generic="false" instance_name="Q3_copy"></mutation>
+                    <field name="COMPONENT_SELECTOR">Q3_copy</field>
+                    <field name="PROP">Visible</field>
+                    <value name="VALUE">
+                      <block type="logic_boolean" id="-~mTj#~L3-NMz3HpoBt6">
+                        <field name="BOOL">FALSE</field>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="component_set_get" id="tuxz/vSDEue?mVwc}_yJ">
+                        <mutation component_type="VerticalArrangement" set_or_get="set" property_name="Visible" is_generic="false" instance_name="Low_Risk"></mutation>
+                        <field name="COMPONENT_SELECTOR">Low_Risk</field>
+                        <field name="PROP">Visible</field>
+                        <value name="VALUE">
+                          <block type="logic_boolean" id="y)L@[GRX(ynt3g}N9S*m">
+                            <field name="BOOL">FALSE</field>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="component_set_get" id="=HH3W?y5:*0Lg9@nKHM2">
+                            <mutation component_type="VerticalArrangement" set_or_get="set" property_name="Visible" is_generic="false" instance_name="High_Risk"></mutation>
+                            <field name="COMPONENT_SELECTOR">High_Risk</field>
+                            <field name="PROP">Visible</field>
+                            <value name="VALUE">
+                              <block type="logic_boolean" id="g9IMrE8O7j)^;zCkm]@/">
+                                <field name="BOOL">TRUE</field>
+                              </block>
+                            </value>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id=".h?S_[AI22vS.B#FIy2V" x="-850" y="510">
+    <mutation component_type="MakeroidCardView" is_generic="false" instance_name="Yes2" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">Yes2</field>
+    <statement name="DO">
+      <block type="lexical_variable_set" id=";wE;!n%32rL_L=e9TU_I">
+        <field name="VAR">global q2</field>
+        <value name="VALUE">
+          <block type="math_number" id="5z#OAxALyVUTI9@P{)%n">
+            <field name="NUM">1</field>
+          </block>
+        </value>
+        <next>
+          <block type="component_set_get" id="4]Ei+sN!)#N!SzmJB8!W">
+            <mutation component_type="VerticalArrangement" set_or_get="set" property_name="BackgroundColor" is_generic="false" instance_name="Vertical_Arrangement1"></mutation>
+            <field name="COMPONENT_SELECTOR">Vertical_Arrangement1</field>
+            <field name="PROP">BackgroundColor</field>
+            <value name="VALUE">
+              <block type="color_red" id=".s{F6o,qUFmC_=bXh6|0">
+                <field name="COLOR">#ff9966</field>
+              </block>
+            </value>
+            <next>
+              <block type="component_set_get" id="IL[ZA530Ut0FFi0AvyDn">
+                <mutation component_type="VerticalArrangement" set_or_get="set" property_name="Visible" is_generic="false" instance_name="Age"></mutation>
+                <field name="COMPONENT_SELECTOR">Age</field>
+                <field name="PROP">Visible</field>
+                <value name="VALUE">
+                  <block type="logic_boolean" id="Tj;bYxQ_JFmmQliqp?P_">
+                    <field name="BOOL">FALSE</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="component_set_get" id="bE:H#/%-{%kPqJMbLsrA">
+                    <mutation component_type="VerticalArrangement" set_or_get="set" property_name="Visible" is_generic="false" instance_name="Q3"></mutation>
+                    <field name="COMPONENT_SELECTOR">Q3</field>
+                    <field name="PROP">Visible</field>
+                    <value name="VALUE">
+                      <block type="logic_boolean" id="^!fS1~|i{U,Mb6z%SQF7">
+                        <field name="BOOL">TRUE</field>
+                      </block>
+                    </value>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="WK:v9]_3p+3:3+aJWs1T" x="-830" y="670">
+    <mutation component_type="MakeroidCardView" is_generic="false" instance_name="Yes3" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">Yes3</field>
+    <statement name="DO">
+      <block type="lexical_variable_set" id="#|`^Vdpxm:^CQb{wcs5J">
+        <field name="VAR">global q3</field>
+        <value name="VALUE">
+          <block type="math_number" id="t#uNm|haK:Fy`}MZzkkd">
+            <field name="NUM">1</field>
+          </block>
+        </value>
+        <next>
+          <block type="component_set_get" id="~4.?lz+f~#T=gCxy3l$(">
+            <mutation component_type="VerticalArrangement" set_or_get="set" property_name="BackgroundColor" is_generic="false" instance_name="Vertical_Arrangement1"></mutation>
+            <field name="COMPONENT_SELECTOR">Vertical_Arrangement1</field>
+            <field name="PROP">BackgroundColor</field>
+            <value name="VALUE">
+              <block type="color_red" id="S6RBQLh~e=e]RLF7y|$i">
+                <field name="COLOR">#009900</field>
+              </block>
+            </value>
+            <next>
+              <block type="component_set_get" id="yJYFgb$Dy!5^?}VRn_t5">
+                <mutation component_type="VerticalArrangement" set_or_get="set" property_name="Visible" is_generic="false" instance_name="Q3"></mutation>
+                <field name="COMPONENT_SELECTOR">Q3</field>
+                <field name="PROP">Visible</field>
+                <value name="VALUE">
+                  <block type="logic_boolean" id="hp|sFM|wZtncXKV|=()-">
+                    <field name="BOOL">FALSE</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="component_set_get" id="c+_(mCd~tvrIYKD4:7fK">
+                    <mutation component_type="VerticalArrangement" set_or_get="set" property_name="Visible" is_generic="false" instance_name="Q3_copy"></mutation>
+                    <field name="COMPONENT_SELECTOR">Q3_copy</field>
+                    <field name="PROP">Visible</field>
+                    <value name="VALUE">
+                      <block type="logic_boolean" id="R_a};#Tl4r0+;NJac7rU">
+                        <field name="BOOL">TRUE</field>
+                      </block>
+                    </value>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="9h5yaVrV,_}{V,4-FLoX" x="-1383" y="813">
+    <mutation component_type="MakeroidCardView" is_generic="false" instance_name="No3_copy" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">No3_copy</field>
+    <statement name="DO">
+      <block type="lexical_variable_set" id="!,JxX#SzIA{OW.4~M_A@">
+        <field name="VAR">global q4</field>
+        <value name="VALUE">
+          <block type="math_number" id="V(vG3mt.L)(vy-1!O*JM">
+            <field name="NUM">2</field>
+          </block>
+        </value>
+        <next>
+          <block type="controls_if" id=",-sxmIzS#ZxAbJ0`H~Mg">
+            <mutation elseif="2" else="1"></mutation>
+            <value name="IF0">
+              <block type="math_compare" id="Evgu(|_HR-E=]HMU.Y08">
+                <field name="OP">EQ</field>
+                <value name="A">
+                  <block type="lexical_variable_get" id="TQ*EUusTXa=iFQR/nHtY">
+                    <field name="VAR">global q1</field>
+                  </block>
+                </value>
+                <value name="B">
+                  <block type="math_number" id="_czx@?y+)zZe8V=Li(ik">
+                    <field name="NUM">2</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <statement name="DO0">
+              <block type="controls_if" id="o!zsY8^=3?MS2=Puy0WX">
+                <mutation else="1"></mutation>
+                <value name="IF0">
+                  <block type="math_compare" id="/M?cXk{GpWu|=A0|mZf_">
+                    <field name="OP">EQ</field>
+                    <value name="A">
+                      <block type="lexical_variable_get" id="ySPmqQGh$o=FYdJ_@3yw">
+                        <field name="VAR">global q2</field>
+                      </block>
+                    </value>
+                    <value name="B">
+                      <block type="math_number" id="o0or,;l~d.dp%3u(4U3:">
+                        <field name="NUM">2</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <statement name="DO0">
+                  <block type="controls_if" id="UjI,?V?n;cv-v)|2X@:8">
+                    <mutation else="1"></mutation>
+                    <value name="IF0">
+                      <block type="math_compare" id="mYu@1fnrjMqwA5KAK.q1">
+                        <field name="OP">EQ</field>
+                        <value name="A">
+                          <block type="lexical_variable_get" id="76?e*{Ft25Gsqx_DxhrJ">
+                            <field name="VAR">global q3</field>
+                          </block>
+                        </value>
+                        <value name="B">
+                          <block type="math_number" id="roD.TQNYq^szlp??tBQC">
+                            <field name="NUM">2</field>
+                          </block>
+                        </value>
+                      </block>
+                    </value>
+                    <statement name="DO0">
+                      <block type="component_method" id="ry-pMOI)1kY18r3UkF@$">
+                        <mutation component_type="TinyDB" method_name="StoreValue" is_generic="false" instance_name="Tiny_DB1"></mutation>
+                        <field name="COMPONENT_SELECTOR">Tiny_DB1</field>
+                        <value name="ARG0">
+                          <block type="text" id="O$7w$m+?wj|@fhT=Q!~r">
+                            <field name="TEXT">risk</field>
+                          </block>
+                        </value>
+                        <value name="ARG1">
+                          <block type="math_number" id="O3!iObTaWVn`~S|H#3|k">
+                            <field name="NUM">100</field>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="component_set_get" id="#xW[7nLhu)1inZ#N(~Vh">
+                            <mutation component_type="VerticalArrangement" set_or_get="set" property_name="BackgroundColor" is_generic="false" instance_name="Vertical_Arrangement1"></mutation>
+                            <field name="COMPONENT_SELECTOR">Vertical_Arrangement1</field>
+                            <field name="PROP">BackgroundColor</field>
+                            <value name="VALUE">
+                              <block type="color_red" id="g(pl~^T5#},?TCwLvZ=N">
+                                <field name="COLOR">#ffffcc</field>
+                              </block>
+                            </value>
+                            <next>
+                              <block type="component_set_get" id="2:#2Scv{Bh@x?ezsz]D~">
+                                <mutation component_type="VerticalArrangement" set_or_get="set" property_name="Visible" is_generic="false" instance_name="Q3_copy"></mutation>
+                                <field name="COMPONENT_SELECTOR">Q3_copy</field>
+                                <field name="PROP">Visible</field>
+                                <value name="VALUE">
+                                  <block type="logic_boolean" id="gUl[Kn~If6Wb}s3!Rw#G">
+                                    <field name="BOOL">FALSE</field>
+                                  </block>
+                                </value>
+                                <next>
+                                  <block type="component_set_get" id="d9;X8mzqZ/5mEb09U.cE">
+                                    <mutation component_type="VerticalArrangement" set_or_get="set" property_name="Visible" is_generic="false" instance_name="High_Risk"></mutation>
+                                    <field name="COMPONENT_SELECTOR">High_Risk</field>
+                                    <field name="PROP">Visible</field>
+                                    <value name="VALUE">
+                                      <block type="logic_boolean" id="yZL%_qxFci@!Rv}z@jrU">
+                                        <field name="BOOL">FALSE</field>
+                                      </block>
+                                    </value>
+                                    <next>
+                                      <block type="component_set_get" id="W@v}sA%+[{ZICA}x_BEn">
+                                        <mutation component_type="VerticalArrangement" set_or_get="set" property_name="Visible" is_generic="false" instance_name="Low_Risk"></mutation>
+                                        <field name="COMPONENT_SELECTOR">Low_Risk</field>
+                                        <field name="PROP">Visible</field>
+                                        <value name="VALUE">
+                                          <block type="logic_boolean" id="Da8MQ*rnI.t:z)4Ce~_{">
+                                            <field name="BOOL">TRUE</field>
+                                          </block>
+                                        </value>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </statement>
+                    <statement name="ELSE">
+                      <block type="lexical_variable_set" id="1X5w1F/4njZyj0$]_M1g">
+                        <field name="VAR">global q4</field>
+                        <value name="VALUE">
+                          <block type="math_number" id="%y8(qaj%c?VA825b=dA)">
+                            <field name="NUM">1</field>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="component_method" id="le7#vs@_5Iy*-gHlTHAG">
+                            <mutation component_type="TinyDB" method_name="StoreValue" is_generic="false" instance_name="Tiny_DB1"></mutation>
+                            <field name="COMPONENT_SELECTOR">Tiny_DB1</field>
+                            <value name="ARG0">
+                              <block type="text" id=",%#ok)EHo4`3`DA/Vrsq">
+                                <field name="TEXT">risk</field>
+                              </block>
+                            </value>
+                            <value name="ARG1">
+                              <block type="math_number" id="TA/qe3ve/`vavfAZp;7$">
+                                <field name="NUM">100</field>
+                              </block>
+                            </value>
+                            <next>
+                              <block type="component_set_get" id="Q@S5q;iSO[nU.Xoh6|!J">
+                                <mutation component_type="VerticalArrangement" set_or_get="set" property_name="BackgroundColor" is_generic="false" instance_name="Vertical_Arrangement1"></mutation>
+                                <field name="COMPONENT_SELECTOR">Vertical_Arrangement1</field>
+                                <field name="PROP">BackgroundColor</field>
+                                <value name="VALUE">
+                                  <block type="color_red" id="_rovp`5shS7Ls:`grf%6">
+                                    <field name="COLOR">#330099</field>
+                                  </block>
+                                </value>
+                                <next>
+                                  <block type="component_set_get" id="v|]Qgc=r3;}0Xl-68:-@">
+                                    <mutation component_type="VerticalArrangement" set_or_get="set" property_name="Visible" is_generic="false" instance_name="Q3_copy"></mutation>
+                                    <field name="COMPONENT_SELECTOR">Q3_copy</field>
+                                    <field name="PROP">Visible</field>
+                                    <value name="VALUE">
+                                      <block type="logic_boolean" id="j*{7Plm5V))8]tlHq8V/">
+                                        <field name="BOOL">FALSE</field>
+                                      </block>
+                                    </value>
+                                    <next>
+                                      <block type="component_set_get" id="[BN@UZ|-7hCw=wMWCxHy">
+                                        <mutation component_type="VerticalArrangement" set_or_get="set" property_name="Visible" is_generic="false" instance_name="Low_Risk"></mutation>
+                                        <field name="COMPONENT_SELECTOR">Low_Risk</field>
+                                        <field name="PROP">Visible</field>
+                                        <value name="VALUE">
+                                          <block type="logic_boolean" id="Fv0p!(mU|s9lXy*B!NW;">
+                                            <field name="BOOL">FALSE</field>
+                                          </block>
+                                        </value>
+                                        <next>
+                                          <block type="component_set_get" id="L*[zX94^G~vITzG?_q1=">
+                                            <mutation component_type="VerticalArrangement" set_or_get="set" property_name="Visible" is_generic="false" instance_name="High_Risk"></mutation>
+                                            <field name="COMPONENT_SELECTOR">High_Risk</field>
+                                            <field name="PROP">Visible</field>
+                                            <value name="VALUE">
+                                              <block type="logic_boolean" id="0n;v5apIRSM(]=[.y3r$">
+                                                <field name="BOOL">TRUE</field>
+                                              </block>
+                                            </value>
+                                          </block>
+                                        </next>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </statement>
+                  </block>
+                </statement>
+                <statement name="ELSE">
+                  <block type="lexical_variable_set" id="4Pfew[1v$n.B416a)^#g">
+                    <field name="VAR">global q4</field>
+                    <value name="VALUE">
+                      <block type="math_number" id="Z?03?xt]G8[N){An-K7?">
+                        <field name="NUM">1</field>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="component_method" id="-Ij}l}ZZ5eIerwR9/xdH">
+                        <mutation component_type="TinyDB" method_name="StoreValue" is_generic="false" instance_name="Tiny_DB1"></mutation>
+                        <field name="COMPONENT_SELECTOR">Tiny_DB1</field>
+                        <value name="ARG0">
+                          <block type="text" id="E.[wJ#W?XmL]37#E@[k{">
+                            <field name="TEXT">risk</field>
+                          </block>
+                        </value>
+                        <value name="ARG1">
+                          <block type="math_number" id="qK7K*[X%cs$jJc[a`E1:">
+                            <field name="NUM">100</field>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="component_set_get" id="P;5,0fsXa4h;vU*Q@UJJ">
+                            <mutation component_type="VerticalArrangement" set_or_get="set" property_name="BackgroundColor" is_generic="false" instance_name="Vertical_Arrangement1"></mutation>
+                            <field name="COMPONENT_SELECTOR">Vertical_Arrangement1</field>
+                            <field name="PROP">BackgroundColor</field>
+                            <value name="VALUE">
+                              <block type="color_red" id="_aXQYcgIGv[}^0*Hw_o*">
+                                <field name="COLOR">#330099</field>
+                              </block>
+                            </value>
+                            <next>
+                              <block type="component_set_get" id="k-#nyTFEf?dqm67]PDLK">
+                                <mutation component_type="VerticalArrangement" set_or_get="set" property_name="Visible" is_generic="false" instance_name="Q3_copy"></mutation>
+                                <field name="COMPONENT_SELECTOR">Q3_copy</field>
+                                <field name="PROP">Visible</field>
+                                <value name="VALUE">
+                                  <block type="logic_boolean" id="W)/tt86Otz8EiSQIw-[e">
+                                    <field name="BOOL">FALSE</field>
+                                  </block>
+                                </value>
+                                <next>
+                                  <block type="component_set_get" id="IH+@2NM6/VyNbiV#5aNA">
+                                    <mutation component_type="VerticalArrangement" set_or_get="set" property_name="Visible" is_generic="false" instance_name="Low_Risk"></mutation>
+                                    <field name="COMPONENT_SELECTOR">Low_Risk</field>
+                                    <field name="PROP">Visible</field>
+                                    <value name="VALUE">
+                                      <block type="logic_boolean" id="d*BmXz00GJ}GHzx^n|xN">
+                                        <field name="BOOL">FALSE</field>
+                                      </block>
+                                    </value>
+                                    <next>
+                                      <block type="component_set_get" id="KjWPHfGQKL2!.l^tF#?!">
+                                        <mutation component_type="VerticalArrangement" set_or_get="set" property_name="Visible" is_generic="false" instance_name="High_Risk"></mutation>
+                                        <field name="COMPONENT_SELECTOR">High_Risk</field>
+                                        <field name="PROP">Visible</field>
+                                        <value name="VALUE">
+                                          <block type="logic_boolean" id="qwnvs=w4g7ic3N]p)K?C">
+                                            <field name="BOOL">TRUE</field>
+                                          </block>
+                                        </value>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </statement>
+              </block>
+            </statement>
+            <value name="IF1">
+              <block type="math_compare" id="v78tvg--!8nh}_go8R|L">
+                <field name="OP">EQ</field>
+                <value name="A">
+                  <block type="lexical_variable_get" id="|SqZJ8d8eM%fIZnds1f[">
+                    <field name="VAR">global q2</field>
+                  </block>
+                </value>
+                <value name="B">
+                  <block type="math_number" id="[Q!b*4IP#6Q#/Cit*es8">
+                    <field name="NUM">2</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <statement name="DO1">
+              <block type="controls_if" id="ARjme=*2FYn/DyP2fbRx">
+                <mutation else="1"></mutation>
+                <value name="IF0">
+                  <block type="math_compare" id="SL)1I1qMtB$0=Rx?XQG?">
+                    <field name="OP">EQ</field>
+                    <value name="A">
+                      <block type="lexical_variable_get" id="j_)GPX1dS$7U$~gKar3f">
+                        <field name="VAR">global q3</field>
+                      </block>
+                    </value>
+                    <value name="B">
+                      <block type="math_number" id="N`0#AAHUlnO*MZxHf)0d">
+                        <field name="NUM">2</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <statement name="DO0">
+                  <block type="controls_if" id="DdL^$i!pyUD9@h~ZgDvI">
+                    <mutation else="1"></mutation>
+                    <value name="IF0">
+                      <block type="math_compare" id="D3C5zr{.r?uI-o,U/N.X">
+                        <field name="OP">EQ</field>
+                        <value name="A">
+                          <block type="lexical_variable_get" id="S%`lR}K%/S6#iH?r$Z=x">
+                            <field name="VAR">global q1</field>
+                          </block>
+                        </value>
+                        <value name="B">
+                          <block type="math_number" id="0YqVwP=W%dAV~%v+AEl~">
+                            <field name="NUM">2</field>
+                          </block>
+                        </value>
+                      </block>
+                    </value>
+                    <statement name="DO0">
+                      <block type="component_method" id="WlIH`j)=ji@ejbS;d+K$">
+                        <mutation component_type="TinyDB" method_name="StoreValue" is_generic="false" instance_name="Tiny_DB1"></mutation>
+                        <field name="COMPONENT_SELECTOR">Tiny_DB1</field>
+                        <value name="ARG0">
+                          <block type="text" id="QTHf#U-bYfw_A!/an(R:">
+                            <field name="TEXT">risk</field>
+                          </block>
+                        </value>
+                        <value name="ARG1">
+                          <block type="math_number" id="]$io?zMaa/y2`~$K|A=|">
+                            <field name="NUM">100</field>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="component_set_get" id="0,Qb~Tj$Ke^xu2^Is,fR">
+                            <mutation component_type="VerticalArrangement" set_or_get="set" property_name="BackgroundColor" is_generic="false" instance_name="Vertical_Arrangement1"></mutation>
+                            <field name="COMPONENT_SELECTOR">Vertical_Arrangement1</field>
+                            <field name="PROP">BackgroundColor</field>
+                            <value name="VALUE">
+                              <block type="color_red" id="`ZC[B~Mz#!Iw,SaCNl*)">
+                                <field name="COLOR">#ffffcc</field>
+                              </block>
+                            </value>
+                            <next>
+                              <block type="component_set_get" id="wLXqgp)rI4VAecm~|at)">
+                                <mutation component_type="VerticalArrangement" set_or_get="set" property_name="Visible" is_generic="false" instance_name="Q3_copy"></mutation>
+                                <field name="COMPONENT_SELECTOR">Q3_copy</field>
+                                <field name="PROP">Visible</field>
+                                <value name="VALUE">
+                                  <block type="logic_boolean" id="2g5b{=gHJvbxne(3A2C_">
+                                    <field name="BOOL">FALSE</field>
+                                  </block>
+                                </value>
+                                <next>
+                                  <block type="component_set_get" id="VQcs-{0)maL3*Q6b;t%m">
+                                    <mutation component_type="VerticalArrangement" set_or_get="set" property_name="Visible" is_generic="false" instance_name="High_Risk"></mutation>
+                                    <field name="COMPONENT_SELECTOR">High_Risk</field>
+                                    <field name="PROP">Visible</field>
+                                    <value name="VALUE">
+                                      <block type="logic_boolean" id="{),_H.u[y-`]ej*u^gq`">
+                                        <field name="BOOL">FALSE</field>
+                                      </block>
+                                    </value>
+                                    <next>
+                                      <block type="component_set_get" id="Sg8%rR:Z7ysTmjBdv|,_">
+                                        <mutation component_type="VerticalArrangement" set_or_get="set" property_name="Visible" is_generic="false" instance_name="Low_Risk"></mutation>
+                                        <field name="COMPONENT_SELECTOR">Low_Risk</field>
+                                        <field name="PROP">Visible</field>
+                                        <value name="VALUE">
+                                          <block type="logic_boolean" id="1qIiV3+z3@l9`nv:|{Ox">
+                                            <field name="BOOL">TRUE</field>
+                                          </block>
+                                        </value>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </statement>
+                    <statement name="ELSE">
+                      <block type="lexical_variable_set" id="dqU2O~5eaa#o*Z7rQ1yg">
+                        <field name="VAR">global q4</field>
+                        <value name="VALUE">
+                          <block type="math_number" id="YS;c$$zOp(I=51dpS2Z%">
+                            <field name="NUM">1</field>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="component_method" id="$axvG($%N3){I:jz|`,#">
+                            <mutation component_type="TinyDB" method_name="StoreValue" is_generic="false" instance_name="Tiny_DB1"></mutation>
+                            <field name="COMPONENT_SELECTOR">Tiny_DB1</field>
+                            <value name="ARG0">
+                              <block type="text" id="%e/t~S^8i0*$yG3*$ak#">
+                                <field name="TEXT">risk</field>
+                              </block>
+                            </value>
+                            <value name="ARG1">
+                              <block type="math_number" id="T-AHG~:02!?F*:!Pt(Wh">
+                                <field name="NUM">100</field>
+                              </block>
+                            </value>
+                            <next>
+                              <block type="component_set_get" id="0KQ6kl2fqi(FoZC%G7s1">
+                                <mutation component_type="VerticalArrangement" set_or_get="set" property_name="BackgroundColor" is_generic="false" instance_name="Vertical_Arrangement1"></mutation>
+                                <field name="COMPONENT_SELECTOR">Vertical_Arrangement1</field>
+                                <field name="PROP">BackgroundColor</field>
+                                <value name="VALUE">
+                                  <block type="color_red" id="{=~55|,5+X1%xHno|=qt">
+                                    <field name="COLOR">#330099</field>
+                                  </block>
+                                </value>
+                                <next>
+                                  <block type="component_set_get" id="SRA-w.l:fT@m:q0mj!BO">
+                                    <mutation component_type="VerticalArrangement" set_or_get="set" property_name="Visible" is_generic="false" instance_name="Q3_copy"></mutation>
+                                    <field name="COMPONENT_SELECTOR">Q3_copy</field>
+                                    <field name="PROP">Visible</field>
+                                    <value name="VALUE">
+                                      <block type="logic_boolean" id="f[_H~K~$gB8Q3U!G8ksq">
+                                        <field name="BOOL">FALSE</field>
+                                      </block>
+                                    </value>
+                                    <next>
+                                      <block type="component_set_get" id="$/zP7JZa?B?m/r2Peb+~">
+                                        <mutation component_type="VerticalArrangement" set_or_get="set" property_name="Visible" is_generic="false" instance_name="Low_Risk"></mutation>
+                                        <field name="COMPONENT_SELECTOR">Low_Risk</field>
+                                        <field name="PROP">Visible</field>
+                                        <value name="VALUE">
+                                          <block type="logic_boolean" id="J:ZBmKcL1LHbJ@E//Ifq">
+                                            <field name="BOOL">FALSE</field>
+                                          </block>
+                                        </value>
+                                        <next>
+                                          <block type="component_set_get" id="M:u]Ks{TCyI]dLPqTz)/">
+                                            <mutation component_type="VerticalArrangement" set_or_get="set" property_name="Visible" is_generic="false" instance_name="High_Risk"></mutation>
+                                            <field name="COMPONENT_SELECTOR">High_Risk</field>
+                                            <field name="PROP">Visible</field>
+                                            <value name="VALUE">
+                                              <block type="logic_boolean" id="c02;xZ6,2zqn_gb%w{Oa">
+                                                <field name="BOOL">TRUE</field>
+                                              </block>
+                                            </value>
+                                          </block>
+                                        </next>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </statement>
+                  </block>
+                </statement>
+                <statement name="ELSE">
+                  <block type="lexical_variable_set" id="*}:=6Dn-{^L[zVE4jp$j">
+                    <field name="VAR">global q4</field>
+                    <value name="VALUE">
+                      <block type="math_number" id="Wi5$T7t3xHaK*DMMk;CM">
+                        <field name="NUM">1</field>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="component_method" id="7Rk46CUpT):]JNikvdki">
+                        <mutation component_type="TinyDB" method_name="StoreValue" is_generic="false" instance_name="Tiny_DB1"></mutation>
+                        <field name="COMPONENT_SELECTOR">Tiny_DB1</field>
+                        <value name="ARG0">
+                          <block type="text" id="`3Be#)^P]0^s)=C$Cbt3">
+                            <field name="TEXT">risk</field>
+                          </block>
+                        </value>
+                        <value name="ARG1">
+                          <block type="math_number" id="HlJQ)FD3Hil?my+%--{=">
+                            <field name="NUM">100</field>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="component_set_get" id="LWvexv5eqW?M$T{ViJqV">
+                            <mutation component_type="VerticalArrangement" set_or_get="set" property_name="BackgroundColor" is_generic="false" instance_name="Vertical_Arrangement1"></mutation>
+                            <field name="COMPONENT_SELECTOR">Vertical_Arrangement1</field>
+                            <field name="PROP">BackgroundColor</field>
+                            <value name="VALUE">
+                              <block type="color_red" id="tF!!}UYQmp_vz`K:.+{?">
+                                <field name="COLOR">#330099</field>
+                              </block>
+                            </value>
+                            <next>
+                              <block type="component_set_get" id="[w[xaED824/Cl.]ZMe$s">
+                                <mutation component_type="VerticalArrangement" set_or_get="set" property_name="Visible" is_generic="false" instance_name="Q3_copy"></mutation>
+                                <field name="COMPONENT_SELECTOR">Q3_copy</field>
+                                <field name="PROP">Visible</field>
+                                <value name="VALUE">
+                                  <block type="logic_boolean" id="NZ5w%eS(gs)-h?rT:4_i">
+                                    <field name="BOOL">FALSE</field>
+                                  </block>
+                                </value>
+                                <next>
+                                  <block type="component_set_get" id="u$d4RZ,/J?ox{1Z#pD(}">
+                                    <mutation component_type="VerticalArrangement" set_or_get="set" property_name="Visible" is_generic="false" instance_name="Low_Risk"></mutation>
+                                    <field name="COMPONENT_SELECTOR">Low_Risk</field>
+                                    <field name="PROP">Visible</field>
+                                    <value name="VALUE">
+                                      <block type="logic_boolean" id="b93J~|op+p_4=(~x6fIl">
+                                        <field name="BOOL">FALSE</field>
+                                      </block>
+                                    </value>
+                                    <next>
+                                      <block type="component_set_get" id="9|.!W:-HK|o-exV136?n">
+                                        <mutation component_type="VerticalArrangement" set_or_get="set" property_name="Visible" is_generic="false" instance_name="High_Risk"></mutation>
+                                        <field name="COMPONENT_SELECTOR">High_Risk</field>
+                                        <field name="PROP">Visible</field>
+                                        <value name="VALUE">
+                                          <block type="logic_boolean" id="9KPN:mbOIme5NaFSk1HN">
+                                            <field name="BOOL">TRUE</field>
+                                          </block>
+                                        </value>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </statement>
+              </block>
+            </statement>
+            <value name="IF2">
+              <block type="math_compare" id="u:|?1-`Y?|a}`41w!Agn">
+                <field name="OP">EQ</field>
+                <value name="A">
+                  <block type="lexical_variable_get" id="jrgBtNW6kIV}f^45K9#:">
+                    <field name="VAR">global q3</field>
+                  </block>
+                </value>
+                <value name="B">
+                  <block type="math_number" id=";PQ|XXYF[P+j|EHma+vZ">
+                    <field name="NUM">2</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <statement name="DO2">
+              <block type="controls_if" id="~OhA/|nm-j1Q{@*C}l=^">
+                <mutation else="1"></mutation>
+                <value name="IF0">
+                  <block type="math_compare" id="hgl=+9Xg/R[Ik15x:}Sk">
+                    <field name="OP">EQ</field>
+                    <value name="A">
+                      <block type="lexical_variable_get" id="#38=G%H#M.p[sS}{3R8!">
+                        <field name="VAR">global q2</field>
+                      </block>
+                    </value>
+                    <value name="B">
+                      <block type="math_number" id="M,v`p~Dc3!}^).Amb(gv">
+                        <field name="NUM">2</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <statement name="DO0">
+                  <block type="controls_if" id=";C$*OOM0}0?TKKaqnpG5">
+                    <mutation else="1"></mutation>
+                    <value name="IF0">
+                      <block type="math_compare" id="*Z]1O|$rf($i{yuiz,2a">
+                        <field name="OP">EQ</field>
+                        <value name="A">
+                          <block type="lexical_variable_get" id="kv$lPEU7`T(iBBW[OeK|">
+                            <field name="VAR">global q2</field>
+                          </block>
+                        </value>
+                        <value name="B">
+                          <block type="math_number" id="AMeaM^H}3[ME3(#SGV_w">
+                            <field name="NUM">2</field>
+                          </block>
+                        </value>
+                      </block>
+                    </value>
+                    <statement name="DO0">
+                      <block type="component_method" id="_Y.GgujU{eLo#QqFnFY*">
+                        <mutation component_type="TinyDB" method_name="StoreValue" is_generic="false" instance_name="Tiny_DB1"></mutation>
+                        <field name="COMPONENT_SELECTOR">Tiny_DB1</field>
+                        <value name="ARG0">
+                          <block type="text" id="]$UGT8$SAvGm.e.FQ?Ug">
+                            <field name="TEXT">risk</field>
+                          </block>
+                        </value>
+                        <value name="ARG1">
+                          <block type="math_number" id="g6I0.gB-YpkH3(c4EqrC">
+                            <field name="NUM">100</field>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="component_set_get" id="m~8CM)[}I:z`6bAkns@S">
+                            <mutation component_type="VerticalArrangement" set_or_get="set" property_name="BackgroundColor" is_generic="false" instance_name="Vertical_Arrangement1"></mutation>
+                            <field name="COMPONENT_SELECTOR">Vertical_Arrangement1</field>
+                            <field name="PROP">BackgroundColor</field>
+                            <value name="VALUE">
+                              <block type="color_red" id="=s@?X,0KytgZX88wtyR(">
+                                <field name="COLOR">#ffffcc</field>
+                              </block>
+                            </value>
+                            <next>
+                              <block type="component_set_get" id="DGpWB=/_.@T5#/9TQFU2">
+                                <mutation component_type="VerticalArrangement" set_or_get="set" property_name="Visible" is_generic="false" instance_name="Q3_copy"></mutation>
+                                <field name="COMPONENT_SELECTOR">Q3_copy</field>
+                                <field name="PROP">Visible</field>
+                                <value name="VALUE">
+                                  <block type="logic_boolean" id="eQGd}t)X62Nnh8efzj[T">
+                                    <field name="BOOL">FALSE</field>
+                                  </block>
+                                </value>
+                                <next>
+                                  <block type="component_set_get" id="=RR[$0X0=l{|$J`|0a7%">
+                                    <mutation component_type="VerticalArrangement" set_or_get="set" property_name="Visible" is_generic="false" instance_name="High_Risk"></mutation>
+                                    <field name="COMPONENT_SELECTOR">High_Risk</field>
+                                    <field name="PROP">Visible</field>
+                                    <value name="VALUE">
+                                      <block type="logic_boolean" id="V2TNcG2n[:NKs~Xb3!8e">
+                                        <field name="BOOL">FALSE</field>
+                                      </block>
+                                    </value>
+                                    <next>
+                                      <block type="component_set_get" id=";g-qf*y9(aJ}4^m/14|:">
+                                        <mutation component_type="VerticalArrangement" set_or_get="set" property_name="Visible" is_generic="false" instance_name="Low_Risk"></mutation>
+                                        <field name="COMPONENT_SELECTOR">Low_Risk</field>
+                                        <field name="PROP">Visible</field>
+                                        <value name="VALUE">
+                                          <block type="logic_boolean" id="k(}QG*.E*Yh[MMa1G0p(">
+                                            <field name="BOOL">TRUE</field>
+                                          </block>
+                                        </value>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </statement>
+                    <statement name="ELSE">
+                      <block type="lexical_variable_set" id="q3WxC#A073xTpj6=gdYn">
+                        <field name="VAR">global q4</field>
+                        <value name="VALUE">
+                          <block type="math_number" id="{Tg__P!^}nAS1Q%w(/.W">
+                            <field name="NUM">1</field>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="component_method" id="4rM*$K}lH|gBRrM6%*$m">
+                            <mutation component_type="TinyDB" method_name="StoreValue" is_generic="false" instance_name="Tiny_DB1"></mutation>
+                            <field name="COMPONENT_SELECTOR">Tiny_DB1</field>
+                            <value name="ARG0">
+                              <block type="text" id="Kp[}5aFh8+f|rN{7h6I@">
+                                <field name="TEXT">risk</field>
+                              </block>
+                            </value>
+                            <value name="ARG1">
+                              <block type="math_number" id="C5bR$DM(_yGKHf1@*bnh">
+                                <field name="NUM">100</field>
+                              </block>
+                            </value>
+                            <next>
+                              <block type="component_set_get" id="YJ8,LjlX+gQzUa|@EVGN">
+                                <mutation component_type="VerticalArrangement" set_or_get="set" property_name="BackgroundColor" is_generic="false" instance_name="Vertical_Arrangement1"></mutation>
+                                <field name="COMPONENT_SELECTOR">Vertical_Arrangement1</field>
+                                <field name="PROP">BackgroundColor</field>
+                                <value name="VALUE">
+                                  <block type="color_red" id="aPY;45qx{,.9ogeHjYj1">
+                                    <field name="COLOR">#330099</field>
+                                  </block>
+                                </value>
+                                <next>
+                                  <block type="component_set_get" id="V/aCWfYaONtdePQ`cl-1">
+                                    <mutation component_type="VerticalArrangement" set_or_get="set" property_name="Visible" is_generic="false" instance_name="Q3_copy"></mutation>
+                                    <field name="COMPONENT_SELECTOR">Q3_copy</field>
+                                    <field name="PROP">Visible</field>
+                                    <value name="VALUE">
+                                      <block type="logic_boolean" id="F@(:I+CJl_CkN1L^Hf:R">
+                                        <field name="BOOL">FALSE</field>
+                                      </block>
+                                    </value>
+                                    <next>
+                                      <block type="component_set_get" id="OZM;~!xQP):$RcT{Y)7S">
+                                        <mutation component_type="VerticalArrangement" set_or_get="set" property_name="Visible" is_generic="false" instance_name="Low_Risk"></mutation>
+                                        <field name="COMPONENT_SELECTOR">Low_Risk</field>
+                                        <field name="PROP">Visible</field>
+                                        <value name="VALUE">
+                                          <block type="logic_boolean" id="F^%m5LSEG;{Gvw#98Q0u">
+                                            <field name="BOOL">FALSE</field>
+                                          </block>
+                                        </value>
+                                        <next>
+                                          <block type="component_set_get" id="-GJREuuc:%]WrwgaW]X~">
+                                            <mutation component_type="VerticalArrangement" set_or_get="set" property_name="Visible" is_generic="false" instance_name="High_Risk"></mutation>
+                                            <field name="COMPONENT_SELECTOR">High_Risk</field>
+                                            <field name="PROP">Visible</field>
+                                            <value name="VALUE">
+                                              <block type="logic_boolean" id="5M8H@`S%`zy]ZR=g)K[e">
+                                                <field name="BOOL">TRUE</field>
+                                              </block>
+                                            </value>
+                                          </block>
+                                        </next>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </statement>
+                  </block>
+                </statement>
+                <statement name="ELSE">
+                  <block type="lexical_variable_set" id="QTT_u$NW.]xQfyfPxq+c">
+                    <field name="VAR">global q4</field>
+                    <value name="VALUE">
+                      <block type="math_number" id="MkJ[Fp?IdZG#|Gr0Cs~!">
+                        <field name="NUM">1</field>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="component_method" id="v2dLyTN_CV]7BhUTI?c9">
+                        <mutation component_type="TinyDB" method_name="StoreValue" is_generic="false" instance_name="Tiny_DB1"></mutation>
+                        <field name="COMPONENT_SELECTOR">Tiny_DB1</field>
+                        <value name="ARG0">
+                          <block type="text" id="%@{D$kvG8r=.O?,-g%b8">
+                            <field name="TEXT">risk</field>
+                          </block>
+                        </value>
+                        <value name="ARG1">
+                          <block type="math_number" id="H@iboxDb`GF33]4o]jsZ">
+                            <field name="NUM">100</field>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="component_set_get" id="RHL_F;rl3l`x8pP:.cIV">
+                            <mutation component_type="VerticalArrangement" set_or_get="set" property_name="BackgroundColor" is_generic="false" instance_name="Vertical_Arrangement1"></mutation>
+                            <field name="COMPONENT_SELECTOR">Vertical_Arrangement1</field>
+                            <field name="PROP">BackgroundColor</field>
+                            <value name="VALUE">
+                              <block type="color_red" id="T6/Y.B*[~^trHt(Q(F@S">
+                                <field name="COLOR">#330099</field>
+                              </block>
+                            </value>
+                            <next>
+                              <block type="component_set_get" id=":dtTfJQ{i8Ge,;7;0HK3">
+                                <mutation component_type="VerticalArrangement" set_or_get="set" property_name="Visible" is_generic="false" instance_name="Q3_copy"></mutation>
+                                <field name="COMPONENT_SELECTOR">Q3_copy</field>
+                                <field name="PROP">Visible</field>
+                                <value name="VALUE">
+                                  <block type="logic_boolean" id="JLKyW!vn?=tA@$INK7p^">
+                                    <field name="BOOL">FALSE</field>
+                                  </block>
+                                </value>
+                                <next>
+                                  <block type="component_set_get" id="ZgwaR#OBX3d$M0HQ@1/S">
+                                    <mutation component_type="VerticalArrangement" set_or_get="set" property_name="Visible" is_generic="false" instance_name="Low_Risk"></mutation>
+                                    <field name="COMPONENT_SELECTOR">Low_Risk</field>
+                                    <field name="PROP">Visible</field>
+                                    <value name="VALUE">
+                                      <block type="logic_boolean" id=",ofDLS1?t~|t2MWZbG#S">
+                                        <field name="BOOL">FALSE</field>
+                                      </block>
+                                    </value>
+                                    <next>
+                                      <block type="component_set_get" id="ON!n4L0dgL4^(te]H63[">
+                                        <mutation component_type="VerticalArrangement" set_or_get="set" property_name="Visible" is_generic="false" instance_name="High_Risk"></mutation>
+                                        <field name="COMPONENT_SELECTOR">High_Risk</field>
+                                        <field name="PROP">Visible</field>
+                                        <value name="VALUE">
+                                          <block type="logic_boolean" id="W[aF.W@YBZLa{Zac,X(J">
+                                            <field name="BOOL">TRUE</field>
+                                          </block>
+                                        </value>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </statement>
+              </block>
+            </statement>
+            <statement name="ELSE">
+              <block type="lexical_variable_set" id="]d?Ij8DT8_pV!w_tLfv7">
+                <field name="VAR">global q4</field>
+                <value name="VALUE">
+                  <block type="math_number" id="u$vShSEq,r5*XlCS{V~5">
+                    <field name="NUM">1</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="component_method" id="S*dYiQGTm8_K#:vR@DFl">
+                    <mutation component_type="TinyDB" method_name="StoreValue" is_generic="false" instance_name="Tiny_DB1"></mutation>
+                    <field name="COMPONENT_SELECTOR">Tiny_DB1</field>
+                    <value name="ARG0">
+                      <block type="text" id="xEZT2$jLIZd;md-$7MJ0">
+                        <field name="TEXT">risk</field>
+                      </block>
+                    </value>
+                    <value name="ARG1">
+                      <block type="math_number" id="b:03;J6{YhPiCst[U}]|">
+                        <field name="NUM">100</field>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="component_set_get" id="vIWnDG%M5{$cz*x$%j{:">
+                        <mutation component_type="VerticalArrangement" set_or_get="set" property_name="BackgroundColor" is_generic="false" instance_name="Vertical_Arrangement1"></mutation>
+                        <field name="COMPONENT_SELECTOR">Vertical_Arrangement1</field>
+                        <field name="PROP">BackgroundColor</field>
+                        <value name="VALUE">
+                          <block type="color_red" id="urpnv`==$VF)m1JN(_+b">
+                            <field name="COLOR">#330099</field>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="component_set_get" id="j1V^!p$g%uR[W4|DjIGy">
+                            <mutation component_type="VerticalArrangement" set_or_get="set" property_name="Visible" is_generic="false" instance_name="Q3_copy"></mutation>
+                            <field name="COMPONENT_SELECTOR">Q3_copy</field>
+                            <field name="PROP">Visible</field>
+                            <value name="VALUE">
+                              <block type="logic_boolean" id="T~w-B1mkzX|oLP-Z.Y^6">
+                                <field name="BOOL">FALSE</field>
+                              </block>
+                            </value>
+                            <next>
+                              <block type="component_set_get" id="z]}Y,)Kl~:T9P;NJ/@##">
+                                <mutation component_type="VerticalArrangement" set_or_get="set" property_name="Visible" is_generic="false" instance_name="Low_Risk"></mutation>
+                                <field name="COMPONENT_SELECTOR">Low_Risk</field>
+                                <field name="PROP">Visible</field>
+                                <value name="VALUE">
+                                  <block type="logic_boolean" id="dc1HtFh2;?{=HG=f%Hak">
+                                    <field name="BOOL">FALSE</field>
+                                  </block>
+                                </value>
+                                <next>
+                                  <block type="component_set_get" id="@|G-*IM+.xUz0]W5=V=?">
+                                    <mutation component_type="VerticalArrangement" set_or_get="set" property_name="Visible" is_generic="false" instance_name="High_Risk"></mutation>
+                                    <field name="COMPONENT_SELECTOR">High_Risk</field>
+                                    <field name="PROP">Visible</field>
+                                    <value name="VALUE">
+                                      <block type="logic_boolean" id="Y1JoQ$o$G5*cLz8IFFBZ">
+                                        <field name="BOOL">TRUE</field>
+                                      </block>
+                                    </value>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </statement>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="qj1TvNIs[YhPpfh*x5AC" x="-870" y="1050">
+    <mutation component_type="MakeroidCardView" is_generic="false" instance_name="Go_To_Home_2" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">Go_To_Home_2</field>
+    <statement name="DO">
+      <block type="controls_if" id="s@Y=#;]:j_6QDOF:kH^z">
+        <value name="IF0">
+          <block type="logic_boolean" id="x2db0K_+-[^?0SD/|~(v">
+            <field name="BOOL">TRUE</field>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="controls_openAnotherScreen" id="zQE/+?4Wng*JgY%|exQ4">
+            <value name="SCREEN">
+              <block type="text" id="01Vq{g7POLhNdQV;w@#9">
+                <field name="TEXT">Home</field>
+              </block>
+            </value>
+          </block>
+        </statement>
+        <next>
+          <block type="controls_closeScreen" id="yM+9BVX2$_FlO[Ur}9Q~"></block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="(6@Xfb_CdDC^S]J9E3iX" x="-850" y="1190">
+    <mutation component_type="MakeroidCardView" is_generic="false" instance_name="Go_to_home_1" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">Go_to_home_1</field>
+    <statement name="DO">
+      <block type="controls_if" id="S|[seYNksE@JOkE`=1A(">
+        <value name="IF0">
+          <block type="logic_boolean" id="k*=trU=XW:orGa}hIo#$">
+            <field name="BOOL">TRUE</field>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="controls_openAnotherScreen" id=",%1=VTLhpg!JEwtxbqIg">
+            <value name="SCREEN">
+              <block type="text" id="tp/Ti-?~bZ]-CXzJ!j||">
+                <field name="TEXT">Home</field>
+              </block>
+            </value>
+          </block>
+        </statement>
+        <next>
+          <block type="controls_closeScreen" id="ibYtWK-OzkxyFQPcpN[?"></block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <yacodeblocks ya-version="227" language-version="32"></yacodeblocks>
+</xml>

@@ -1,0 +1,28 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="component_event" id=";v~o%*RBGXLj5GD?]M~u" x="-430" y="-190">
+    <mutation component_type="Form" is_generic="false" instance_name="Covid" event_name="BackPressed"></mutation>
+    <field name="COMPONENT_SELECTOR">Covid</field>
+    <statement name="DO">
+      <block type="controls_if" id="5bD]_9k,g1RiH!%xj|=Q">
+        <value name="IF0">
+          <block type="logic_boolean" id="+oVB@U0cLL};4JFUqAT0">
+            <field name="BOOL">TRUE</field>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="controls_openAnotherScreen" id="gUcBvyh42lB`C5g0DJAn">
+            <value name="SCREEN">
+              <block type="text" id="w$mMvk)p_p5=KhPM1r.i">
+                <field name="TEXT">Home</field>
+              </block>
+            </value>
+          </block>
+        </statement>
+        <next>
+          <block type="controls_closeScreen" id="Fibb,*/Sc%CJ1z$n6]uN"></block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <yacodeblocks ya-version="227" language-version="32"></yacodeblocks>
+</xml>
