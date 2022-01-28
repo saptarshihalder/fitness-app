@@ -1,0 +1,72 @@
+[{
+ "categoryString": "EXTENSION",
+ "nonVisible": "true",
+ "iconName": "https://4.bp.blogspot.com/-NBIKCjKY95c/XJh4qaMzl1I/AAAAAAAACqI/2A__BXDzON02oTtdje1SCsBlnVmS3KqzgCLcBGAs/s1600/kio4_gradient.png",
+ "methods": [{
+  "deprecated": "false",
+  "name": "Gradient",
+  "description": "Set name of layout and a list with colors. Orientation is a number from 1 to 8. https://developer.android.com/reference/android/graphics/drawable/GradientDrawable.Orientation.html",
+  "params": [
+   {
+    "name": "layout",
+    "type": "component"
+   },
+   {
+    "name": "listOfColors",
+    "type": "list"
+   },
+   {
+    "name": "orientation",
+    "type": "number"
+   }
+  ]
+ }],
+ "blockProperties": [
+  {
+   "rw": "read-write",
+   "deprecated": "false",
+   "name": "CornerRadius",
+   "description": "Specifies the radius for the corners of the gradient. If this is > 0, then the drawable is drawn in a round-rectangle, rather than a rectangle. This property is honored only when the shape is of type RECTANGLE. Numbers: 0, 1, 2 or 3.",
+   "type": "number"
+  },
+  {
+   "rw": "read-write",
+   "deprecated": "false",
+   "name": "Shape",
+   "description": "Sets the type of shape used to draw the gradient. Numbers: 0, 1, 2 or 3.",
+   "type": "number"
+  },
+  {
+   "rw": "read-write",
+   "deprecated": "false",
+   "name": "Type",
+   "description": "Sets the type of gradient used by this drawable. Numbers: 0, 1, 2 or 3.",
+   "type": "number"
+  }
+ ],
+ "helpUrl": "",
+ "type": "com.KIO4_Gradient.KIO4_Gradient",
+ "version": "1",
+ "external": "true",
+ "showOnPalette": "true",
+ "name": "KIO4_Gradient",
+ "helpString": "Gradient in a layout, you can set a list of colors. https://developer.android.com/reference/android/graphics/drawable/GradientDrawable.html Juan Antonio Villalpando - KIO4.COM ",
+ "properties": [
+  {
+   "defaultValue": "0.0",
+   "name": "CornerRadius",
+   "editorType": "float"
+  },
+  {
+   "defaultValue": "0",
+   "name": "Shape",
+   "editorType": "integer"
+  },
+  {
+   "defaultValue": "0",
+   "name": "Type",
+   "editorType": "integer"
+  }
+ ],
+ "events": []
+}]
