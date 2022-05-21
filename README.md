@@ -10,4 +10,4 @@ Discontinued in 2019 After a long tiresome attempt at creating a working app to 
 ![SS1](https://i.ibb.co/7zzfZVd/Screenshot-20220127-151201.jpg)
 
 
-## 🚨 WARNING: TOOMANY BUGS AAAAAAAAA
+## 🚨 WARNING: TOO MANY BUGS AAAAAAAAA
